@@ -48,7 +48,10 @@ header{
     background-color: #FFFFFF;
 }
 .icons{
-    height: 24px;
+    max-width: 24px;
+    max-height: 24px;
+    width: auto;
+    height: auto;
 }
 /*fim do cabeçalho*/
 
@@ -63,7 +66,7 @@ h1{
     font-size: 20px;
     font-weight: 600;
     line-height: 23.44px;
-    margin: 10px 0px 15px 0px;
+    margin: 10px 0px 10px 0px;
 }
 #channel{
     width: 106px;
@@ -85,22 +88,24 @@ p{
 #interactions{
     width: 902px;
     height: 42px;
-    padding: 0px 0px 18px 0px;
-
+    padding: 8px 0px 18px 0px;
     display: flex;
     gap: 42px;
 }
 #interactions img{
-    width: 42px;
+    max-width: 42px;
+    max-height: 42px;
+    width: auto;
+    height: auto;
 }
 #channel-info{
     display: flex;
     justify-content: flex-start;
-    gap: 12px;
+    gap: 15px;
 }
 #interactions button{
     background-color: #CC0000;
-    width: 159px;
+    width: 150px;
     height: 40px;
     border-radius: 2px;
     border-color: #CC0000;
@@ -108,29 +113,41 @@ p{
     font-weight: 600;
     color: #FFFFFF;
 }
+#reactions{
+    display: flex;
+    gap: 40px;
+}
 #likes{
-    width: 63px;
+    width: 70px;
     height: 24px;
     display: flex;
-    gap: 12px;
+    gap: 10px;
+    align-items: center;
+    margin-top: 5px;
 }
 #dislikes{
-    width: 85px;
+    width: 110px;
     height: 24px;
     display: flex;
-    gap: 12px;
+    gap: 10px;
+    align-items: center;
+    margin-top: 5px;
 }
 #share{
     width: 115px;
     height: 24px;
     display: flex;
-    gap: 12px;
+    gap: 10px;
+    align-items: center;
+    margin-top: 5px;
 }
 #download{
-        width: 95px;
-        height: 24px;
-        display: flex;
-        gap: 12px;
+    width: 95px;
+    height: 24px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 5px;
 }
 h4{
     font-size: 14px;
