@@ -3,7 +3,7 @@
 /*cabeçalho*/
 header{
     height: 56px;
-    width: 1487px;
+    width: 1470px;
     padding: 0px 24px 0px 24px;
     background-color: #FFFFFF;
     display: flex;
@@ -162,7 +162,7 @@ h4{
 #side-videos{
     width: 400px;
     height: 938px;
-    margin-left: 1060px;
+    margin-left: 1070px;
     display: flex;
     flex-direction: column;
     gap: 16px;
