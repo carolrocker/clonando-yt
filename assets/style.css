@@ -1,0 +1,172 @@
+@import url('reset.css');
+
+/*cabeçalho*/
+header{
+    height: 56px;
+    width: 1487px;
+    padding: 0px 24px 0px 24px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+#container1{
+    display: flex;
+    gap: 24px;
+    margin: 15px;
+    background-color: #FFFFFF;
+}
+.menu{
+    height: 24px;
+}
+.logo{
+    height: 20px;
+}
+#container2{
+    display: flex;
+    gap: 0px;
+    margin: 8px;
+    background-color: #FFFFFF;
+}
+.box{
+    width: 348px;
+    height: 35px;
+    border-color: #c7c7c7;
+}
+.button-img{
+    background-image: url(search.png);
+    height: 40px;
+    width: 57px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+    border-color: #c7c7c7;
+}
+#container3{
+    display: flex;
+    gap: 24px;
+    margin: 15px;
+    background-color: #FFFFFF;
+}
+.icons{
+    height: 24px;
+}
+/*fim do cabeçalho*/
+
+/*main*/
+#video-info{
+    width: 952px;
+    height: 746px;
+    margin-left: 85px;
+    margin-top: 30px;
+}
+h1{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.44px;
+    margin: 10px 0px 15px 0px;
+}
+#channel{
+    width: 106px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+}
+p{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+}
+#channel span{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    color: #515151;
+}
+#interactions{
+    width: 902px;
+    height: 42px;
+    padding: 0px 0px 18px 0px;
+
+    display: flex;
+    gap: 42px;
+}
+#interactions img{
+    width: 42px;
+}
+#channel-info{
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+}
+#interactions button{
+    background-color: #CC0000;
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    border-color: #CC0000;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+#likes{
+    width: 63px;
+    height: 24px;
+    display: flex;
+    gap: 12px;
+}
+#dislikes{
+    width: 85px;
+    height: 24px;
+    display: flex;
+    gap: 12px;
+}
+#share{
+    width: 115px;
+    height: 24px;
+    display: flex;
+    gap: 12px;
+}
+#download{
+        width: 95px;
+        height: 24px;
+        display: flex;
+        gap: 12px;
+}
+h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #515151;
+    line-height: 20px;
+    width: 902px;
+    margin-top: 10px;
+}
+/*fim do main*/
+/*início da section*/
+#side-videos{
+    width: 400px;
+    height: 938px;
+    margin-left: 1060px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: absolute;
+    top: 86px;
+}
+#side-videos img{
+    width: 160px;
+}
+#title1{
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+}
+h5{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+#video1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
